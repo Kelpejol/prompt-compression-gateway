@@ -1,0 +1,4 @@
+llmlingua
+fastapi
+uvicorn
+tiktoken
