@@ -2,3 +2,4 @@ llmlingua
 fastapi
 uvicorn
 tiktoken
+pydantic

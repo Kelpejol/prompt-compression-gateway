@@ -4,7 +4,7 @@ compressor = PromptCompressor(
     model_name="microsoft/llmlingua-2-bert-base-multilingual-cased-meetingbank"
 )
 
-def compress(prompt: str, ratio: float = 0.5):
+def compress_prompt(prompt: str, ratio: float):
     result = compressor.compress_prompt(
         prompt,
         compression_ratio=ratio
