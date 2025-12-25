@@ -6,6 +6,7 @@ from fastapi.testclient import TestClient
 from gateway.main import app
 
 
+
 client = TestClient(app)
 
 
