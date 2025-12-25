@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prompt-compression-gateway"
+version = "1.0.0"
+description = "Policy-aware prompt compression gateway"
+authors = [{name = "Kelpejol"}]
+license = {text = "MIT"}
+requires-python = ">=3.9"
+dependencies = [
+    "llmlingua==0.2.1",
+    "fastapi==0.104.1",
+    "uvicorn[standard]==0.24.0",
+    "tiktoken==0.5.1",
+    "pydantic==2.5.0",
+    "python-multipart==0.0.6",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = ["-v", "--tb=short"]
+
+[tool.black]
+line-length = 88
+target-version = ['py39', 'py310', 'py311']
+
+[tool.ruff]
+line-length = 88
+target-version = "py39"
+
+[tool.mypy]
+python_version = "3.9"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false
