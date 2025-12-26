@@ -157,5 +157,5 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## 📞 Support
 
-- 🐛 [Report Issues](https://github.com/yourusername/prompt-compression-gateway/issues)
-- 💬 [Discussions](https://github.com/yourusername/prompt-compression-gateway/discussions)
+- 🐛 [Report Issues](https://github.com/kelpejol/prompt-compression-gateway/issues)
+- 💬 [Discussions](https://github.com/kelpejol/prompt-compression-gateway/discussions)
